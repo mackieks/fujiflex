@@ -1,7 +1,7 @@
-<img src="https://github.com/mackieks/fujiflex/blob/main/images/logo.png" width=400>
-UNTESTED GCVideo DVI flex for 4-layer Nintendo Wiis. Solderpad Hardware License v2.1
+<img src="https://github.com/mackieks/fujiflex/blob/main/images/logo.png" width=200>
+UNTESTED OSHW GCVideo DVI flex for 4-layer Nintendo Wiis. Solderpad Hardware License v2.1
 
-<img src="https://github.com/mackieks/fujiflex/blob/main/images/fujiflex.jpg" width=1200>
+<img src="https://github.com/mackieks/fujiflex/blob/main/images/fujiflex.png" width=1200>
 
 
 
@@ -12,6 +12,8 @@ UNTESTED GCVideo DVI flex for 4-layer Nintendo Wiis. Solderpad Hardware License 
 - [x] Wii SDA and SCL testpoints
 - [x] MODE solder jumper
 - [x] Powered by [Ingo Korb's](https://github.com/ikorb) [GCVideo DVI](https://github.com/ikorb/gcvideo/)
+
+<img src="https://github.com/mackieks/fujiflex/blob/main/images/layout.PNG" width=800>
 
 ## License
 Solderpad Hardware License v2.1
