@@ -1,4 +1,4 @@
-<picture> <source media="(prefers-color-scheme: dark)" srcset="images/logo.png"> <img src="images/logo_dark.png" width="200"> </picture> 
+<picture> <source media="(prefers-color-scheme: dark)" srcset="images/logo.png"> <img src="images/logo_black.png" width="200"> </picture> 
 
 UNTESTED OSHW GCVideo DVI flex for 4-layer Nintendo Wiis. Solderpad Hardware License v2.1
 
