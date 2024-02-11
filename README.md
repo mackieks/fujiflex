@@ -1,4 +1,5 @@
-<img src="https://github.com/mackieks/fujiflex/blob/main/images/logo.png" width=200>
+<picture> <source media="(prefers-color-scheme: dark)" srcset="images/logo.png"> <img src="images/logo_dark.png" width="200"> </picture> 
+
 UNTESTED OSHW GCVideo DVI flex for 4-layer Nintendo Wiis. Solderpad Hardware License v2.1
 
 <img src="https://github.com/mackieks/fujiflex/blob/main/images/fujiflex.png" width=1200>
