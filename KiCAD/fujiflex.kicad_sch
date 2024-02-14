@@ -9345,7 +9345,7 @@
 				)
 			)
 		)
-		(property "Value" "AP2127N-1.2"
+		(property "Value" "TPS7A0512PDBZR"
 			(at 252.73 30.6648 0)
 			(effects
 				(font
@@ -9363,7 +9363,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/AP2127.pdf"
+		(property "Datasheet" ""
 			(at 252.73 34.29 0)
 			(effects
 				(font
@@ -9372,7 +9372,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "300mA low dropout linear regulator, shutdown pin, 2.5V-6V input voltage, 1.2V fixed positive output, SOT-23 package"
+		(property "Description" ""
 			(at 252.73 34.29 0)
 			(effects
 				(font
