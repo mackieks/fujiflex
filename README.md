@@ -46,17 +46,17 @@ If you are using an EZP20xx programmer, you can flash GCVideo using the [Windows
 
 For other programmers, [flashrom](https://flashrom.org) is an open source command line tool for programming flash chips which supports [tons of devices](https://wiki.flashrom.org/Supported_programmers), including the inexpensive CH341A-based boards.
 
-- First expand the GCVideo firmware to match the size of the SPI flash chip:
+First expand the GCVideo firmware to match the size of the SPI flash chip:
 
-    ```shell
-    fallocate -l 512k gcvideo-dvi-shuriken-v3-wii-3.1-spirom-complete.bin
-    ````
+```sh
+fallocate -l 512k gcvideo-dvi-shuriken-v3-wii-3.1-spirom-complete.bin
+````
 
-- Then flash the firmware, for example with a CH341A programmer:
+Then flash the firmware, for example with a CH341A programmer:
 
-    ```shell
-    flashrom --programmer ch341a_spi -w gcvideo-dvi-shuriken-v3-wii-3.1-spirom-complete.bin
-    ```
+```sh
+flashrom --programmer ch341a_spi -w gcvideo-dvi-shuriken-v3-wii-3.1-spirom-complete.bin
+```
 
 ### Socket adapters
 
