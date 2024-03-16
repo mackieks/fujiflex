@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20240101)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "8.99")
 	(uuid "39897c5c-2595-480c-98d1-c9e79572b20a")
 	(paper "A4")
 	(lib_symbols
@@ -4128,6 +4128,12 @@
 		(uuid "03bc938f-7c04-4890-a684-e907e49a0b48")
 	)
 	(junction
+		(at 148.59 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0559ec9f-469c-40d8-b8a3-cde93f2cb21b")
+	)
+	(junction
 		(at 55.88 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4610,10 +4616,6 @@
 		(uuid "b4f9196a-2d3e-4551-965b-3eb8ef980a08")
 	)
 	(no_connect
-		(at 140.97 83.82)
-		(uuid "b6049ad1-312b-437e-b64a-e626ffc79918")
-	)
-	(no_connect
 		(at 80.01 40.64)
 		(uuid "ca86ecba-7a14-4bc8-8153-1ca1dfdfedc5")
 	)
@@ -4737,7 +4739,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 33.02) (xy 148.59 88.9)
+			(xy 148.59 33.02) (xy 148.59 83.82)
 		)
 		(stroke
 			(width 0)
@@ -6027,6 +6029,16 @@
 	)
 	(wire
 		(pts
+			(xy 148.59 83.82) (xy 148.59 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8268eaf5-7793-414a-b502-cd217725509d")
+	)
+	(wire
+		(pts
 			(xy 194.31 93.98) (xy 194.31 86.36)
 		)
 		(stroke
@@ -7184,6 +7196,16 @@
 			(type default)
 		)
 		(uuid "fc1418bd-138f-4c71-80d1-b26bf69197c0")
+	)
+	(wire
+		(pts
+			(xy 140.97 83.82) (xy 148.59 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc42c956-8f54-4962-ab9f-37ac2eea169c")
 	)
 	(wire
 		(pts
@@ -9291,7 +9313,7 @@
 				)
 			)
 		)
-		(property "Value" "AP2127N-1.2"
+		(property "Value" "TPS7A0512PDBZR"
 			(at 252.73 30.6648 0)
 			(effects
 				(font

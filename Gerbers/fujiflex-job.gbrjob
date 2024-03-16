@@ -5,7 +5,7 @@
       "Application": "Pcbnew",
       "Version": "8.99.0-344-gfbc433deaa"
     },
-    "CreationDate": "2024-03-11T19:55:50-04:00"
+    "CreationDate": "2024-03-16T14:02:09-04:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
@@ -46,11 +46,6 @@
     {
       "Path": "fujiflex-F_Paste.gbr",
       "FileFunction": "SolderPaste,Top",
-      "FilePolarity": "Positive"
-    },
-    {
-      "Path": "fujiflex-B_Paste.gbr",
-      "FileFunction": "SolderPaste,Bot",
       "FilePolarity": "Positive"
     },
     {
