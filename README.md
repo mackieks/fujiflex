@@ -8,20 +8,22 @@ Special thanks to [loopj](https://github.com/loopj) for testing the FPC and writ
 
 ## fujiflex features
 - [x] Compact 28 x 30mm 2-layer flex PCB (requires KiCAD 8.0 or later)
+- [x] ~$10 BOM cost
 - [x] Powered from 3.3V and 1.8V (1.2V generated from 1.8V)
-- [x] 19-pin Molex 5052781933 ZIF for HDMI output
-      
-**Note:** As of 2024-03-06, Molex 5052781933 is EoL. Replacement PN is 5052781970, available ~Q3 2024
+- [x] 19-pin Molex 5052781933 / 5052781970 ZIF for HDMI output
 - [x] Wii SDA and SCL testpoints
 - [x] MODE solder jumper
 - [x] Powered by [Ingo Korb's](https://github.com/ikorb) [GCVideo DVI](https://github.com/ikorb/gcvideo/)
 
 <img src="https://github.com/mackieks/fujiflex/blob/main/images/layout.PNG" width=800>
 
-## Assembly
+## Parts Procurement & Assembly
+I maintain [a Mouser project](https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=5589d512f3) with most of the BOM. You still need to source the FPGA from elsewhere. I suggest either [LCSC](https://www.lcsc.com/product-detail/Programmable-Logic-Device-CPLDs-FPGAs_XILINX-XC3S200A-4VQG100C_C1521645.html), [AliExpress](https://www.aliexpress.us/item/3256805017536134.html), or [Taobao](https://item.taobao.com/item.htm?abbucket=5&id=749261010737&ns=1&spm=a21n57.1.0.0.2b93523ch7BSfI).
 
-- A steel solderpaste stencil with etching or electropolishing is highly recommended!
-- If you intend to program the SPI flash in-system, do not place R6
+The total BOM cost for fujiflex is around 10USD. **If you're paying more than $5 per FPGA, you are being ripped off!**
+
+- A steel solderpaste stencil with etching or electropolishing is highly recommended for assembly. JLCPCB is a good source.
+- If you intend to program the SPI flash in-system, do not place R6.
 
 ## Flashing GCVideo
 
