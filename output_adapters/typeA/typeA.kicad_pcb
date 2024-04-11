@@ -80,6 +80,7 @@
 		)
 		(pad_to_mask_clearance 0)
 		(allow_soldermask_bridges_in_footprints no)
+		(grid_origin 170.25 105.5)
 		(pcbplotparams
 			(layerselection 0x00010f8_ffffffff)
 			(plot_on_all_layers_selection 0x0000000_00000000)
@@ -244,7 +245,7 @@
 			(at 0 -3.2 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "40d59710-a4e1-4d41-aa9b-2e29c1734e68")
+			(uuid "dc184b8a-7330-4f33-a9e0-1fbe2e4cbc6e")
 			(effects
 				(font
 					(size 1 1)
@@ -256,7 +257,7 @@
 			(at 0 3.2 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "51510dc2-019e-472e-876e-154d725a16b8")
+			(uuid "fe0b1411-1c9d-4ca3-963f-5f107731df58")
 			(effects
 				(font
 					(size 1 1)
@@ -310,7 +311,7 @@
 			)
 			(fill none)
 			(layer "Cmts.User")
-			(uuid "3ee7d81a-ec15-4681-a577-c334dfcd4a37")
+			(uuid "d6c7198d-2475-4c26-b8ec-5fd6765d6339")
 		)
 		(fp_circle
 			(center 0 0)
@@ -321,14 +322,14 @@
 			)
 			(fill none)
 			(layer "F.CrtYd")
-			(uuid "1fa7255b-9283-4197-9064-6161e82a676f")
+			(uuid "75e905de-6585-4565-95b9-e3382f9c8dfd")
 		)
 		(pad "" np_thru_hole circle
 			(at 0 0)
 			(size 2.2 2.2)
 			(drill 2.2)
 			(layers "F&B.Cu" "*.Mask")
-			(uuid "1692fbd6-2645-439d-b0ba-4ca27f80630f")
+			(uuid "df49accd-3cda-4d0d-b3f9-524861f4bbf8")
 		)
 	)
 	(footprint "MountingHole:MountingHole_2.2mm_M2"
@@ -342,7 +343,7 @@
 			(at 0 -3.2 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "40d59710-a4e1-4d41-aa9b-2e29c1734e68")
+			(uuid "13247fde-a6a7-43d3-9c29-c6679568e767")
 			(effects
 				(font
 					(size 1 1)
@@ -354,7 +355,7 @@
 			(at 0 3.2 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "51510dc2-019e-472e-876e-154d725a16b8")
+			(uuid "273f85f0-27d4-4725-84c1-47238582cdf5")
 			(effects
 				(font
 					(size 1 1)
@@ -408,7 +409,7 @@
 			)
 			(fill none)
 			(layer "Cmts.User")
-			(uuid "3ee7d81a-ec15-4681-a577-c334dfcd4a37")
+			(uuid "ec835280-fd61-401c-8818-3dd6a6ca55bf")
 		)
 		(fp_circle
 			(center 0 0)
@@ -419,14 +420,14 @@
 			)
 			(fill none)
 			(layer "F.CrtYd")
-			(uuid "1fa7255b-9283-4197-9064-6161e82a676f")
+			(uuid "9154d55a-b43f-4f98-801b-15f4997e417e")
 		)
 		(pad "" np_thru_hole circle
 			(at 0 0)
 			(size 2.2 2.2)
 			(drill 2.2)
 			(layers "F&B.Cu" "*.Mask")
-			(uuid "1692fbd6-2645-439d-b0ba-4ca27f80630f")
+			(uuid "11eb7a15-1886-4207-96d0-5f5edf723a90")
 		)
 	)
 	(footprint "Package_DFN_QFN:Diodes_UDFN-10_1.0x2.5mm_P0.5mm"
@@ -742,7 +743,7 @@
 			(at 0 -3.2 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "40d59710-a4e1-4d41-aa9b-2e29c1734e68")
+			(uuid "66a59950-00dc-4cca-8b51-4586e6e5d8cb")
 			(effects
 				(font
 					(size 1 1)
@@ -754,7 +755,7 @@
 			(at 0 3.2 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "51510dc2-019e-472e-876e-154d725a16b8")
+			(uuid "f6b43af1-56b4-4543-9218-7ecdd7c0da57")
 			(effects
 				(font
 					(size 1 1)
@@ -808,7 +809,7 @@
 			)
 			(fill none)
 			(layer "Cmts.User")
-			(uuid "3ee7d81a-ec15-4681-a577-c334dfcd4a37")
+			(uuid "e4180cdc-e476-4e5d-b04d-5fc9ca0eac0d")
 		)
 		(fp_circle
 			(center 0 0)
@@ -819,14 +820,14 @@
 			)
 			(fill none)
 			(layer "F.CrtYd")
-			(uuid "1fa7255b-9283-4197-9064-6161e82a676f")
+			(uuid "b5682fd9-2cd9-4734-a090-4b02bfe3c572")
 		)
 		(pad "" np_thru_hole circle
 			(at 0 0)
 			(size 2.2 2.2)
 			(drill 2.2)
 			(layers "F&B.Cu" "*.Mask")
-			(uuid "1692fbd6-2645-439d-b0ba-4ca27f80630f")
+			(uuid "c91fcb21-de0d-4d54-a2fe-61c79d1043fc")
 		)
 	)
 	(footprint "Package_DFN_QFN:Diodes_UDFN-10_1.0x2.5mm_P0.5mm"
@@ -2700,6 +2701,16 @@
 			(uuid "8b5850cb-90bb-4d8b-a09c-d35a6b0dd4c2")
 		)
 	)
+	(gr_line
+		(start 167.5 88)
+		(end 170.25 90.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Cmts.User")
+		(uuid "6a9c8abf-687f-4355-a43a-add5eb5ada98")
+	)
 	(gr_arc
 		(start 168.164203 89.121795)
 		(mid 169.315879 88.181074)
@@ -3119,6 +3130,150 @@
 				)
 			)
 		)
+	)
+	(gr_text "M2 screwhole x4"
+		(at 154.5 88 0)
+		(layer "Cmts.User")
+		(uuid "0516400c-a5bd-4480-9ca8-bb2ae26b57bb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(dimension
+		(type aligned)
+		(layer "Edge.Cuts")
+		(uuid "2130dcf1-186c-4689-af4d-2386f84990f3")
+		(pts
+			(xy 170.25 105.5) (xy 181.75 105.5)
+		)
+		(height 3.25)
+		(gr_text "11.5000 mm"
+			(at 176 110.25 0)
+			(layer "Edge.Cuts")
+			(uuid "2130dcf1-186c-4689-af4d-2386f84990f3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 4)
+		)
+		(style
+			(thickness 0.05)
+			(arrow_length 1.27)
+			(text_position_mode 2)
+			(extension_height 0.58642)
+			(extension_offset 0.5) keep_text_aligned)
+	)
+	(dimension
+		(type aligned)
+		(layer "Edge.Cuts")
+		(uuid "2bfedbed-8472-43e7-8902-9c012cc7001d")
+		(pts
+			(xy 169.15 90.5) (xy 171.35 90.5)
+		)
+		(height -4.25)
+		(gr_text "2.2000 mm"
+			(at 170.25 85.1 0)
+			(layer "Edge.Cuts")
+			(uuid "2bfedbed-8472-43e7-8902-9c012cc7001d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 4)
+		)
+		(style
+			(thickness 0.05)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(extension_height 0.58642)
+			(extension_offset 0.5) keep_text_aligned)
+	)
+	(dimension
+		(type aligned)
+		(layer "Edge.Cuts")
+		(uuid "58107b39-8e3a-46e3-be44-765d44a00294")
+		(pts
+			(xy 170.25 105.5) (xy 170.25 108.75)
+		)
+		(height 8.25)
+		(gr_text "3.2500 mm"
+			(at 160.85 107.125 90)
+			(layer "Edge.Cuts")
+			(uuid "58107b39-8e3a-46e3-be44-765d44a00294")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 4)
+		)
+		(style
+			(thickness 0.05)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(extension_height 0.58642)
+			(extension_offset 0.5) keep_text_aligned)
+	)
+	(dimension
+		(type aligned)
+		(layer "Edge.Cuts")
+		(uuid "9d1c8bf5-e7b8-4c38-aecf-25e964df40c8")
+		(pts
+			(xy 170.25 105.5) (xy 170.25 90.5)
+		)
+		(height -11)
+		(gr_text "15.0000 mm"
+			(at 158.1 98 90)
+			(layer "Edge.Cuts")
+			(uuid "9d1c8bf5-e7b8-4c38-aecf-25e964df40c8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 4)
+		)
+		(style
+			(thickness 0.05)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(extension_height 0.58642)
+			(extension_offset 0.5) keep_text_aligned)
 	)
 	(segment
 		(start 170.6375 93.8)
