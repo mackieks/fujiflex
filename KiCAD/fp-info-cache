@@ -1,4 +1,4 @@
-23144874916935036
+23158565976052095
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -87185,6 +87185,13 @@ Connector
 14
 14
 SamacSys_Parts
+685119136923
+685119136923
+Connector
+0
+23
+23
+SamacSys_Parts
 503398-1892
 503398-1892
 Connector
@@ -87212,6 +87219,27 @@ Connector
 0
 21
 21
+SamacSys_Parts
+BGA15C40P3X5_134X226X62
+YFF0015
+Power Supply
+0
+15
+15
+SamacSys_Parts
+BGA36C75P6X8_600X800X120
+AS6C1008-55BIN
+Integrated Circuit
+0
+36
+36
+SamacSys_Parts
+INDC3225X120N
+TFM322512A
+Inductor
+0
+2
+2
 SamacSys_Parts
 MUN3CAD03SE
 MUN3CAD03-SE-1
@@ -87241,6 +87269,13 @@ Variable Resistor
 3
 3
 SamacSys_Parts
+QFN40P300X300X90-21N
+20 VQFN 3x3-1
+Integrated Circuit
+0
+21
+21
+SamacSys_Parts
 QFP50P1600X1600X120-100N
 VQG100
 Integrated Circuit
@@ -87269,12 +87304,33 @@ Integrated Circuit
 6
 6
 SamacSys_Parts
+SOTFL50P160X60-6N
+DRL0006A
+Integrated Circuit
+0
+6
+6
+SamacSys_Parts
+TPS628680ARQYR
+TPS628680ARQYR-2
+Integrated Circuit
+0
+9
+9
+SamacSys_Parts
 TestPoint_Pad_D0.75mm
 SMD pad as test Point, diameter 1.0mm
 test point SMD pad
 0
 1
 1
+SamacSys_Parts
+XFL5015152MEC
+XFL5015-152MEC-2
+Inductor
+0
+2
+2
 Sensor
 ASAIR_AM2302_P2.54mm_Lead2.75mm_TabDown
 Temperature and humidity module, http://akizukidenshi.com/download/ds/aosong/AM2302.pdf
