@@ -1,0 +1,1 @@
+<img src="https://github.com/mackieks/fujiflex/blob/main/output_adapters/images/typeA.png" width=400>
