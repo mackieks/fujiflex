@@ -1,1 +1,1 @@
-<img src="https://github.com/mackieks/fujiflex/blob/main/output_adapters/typeA/images/typeA.PNG" width=400>
+<img src="https://github.com/mackieks/fujiflex/blob/main/output_adapters/typeA/images/typeA.PNG" width=400> <img src="https://github.com/mackieks/fujiflex/blob/main/output_adapters/typeA/images/typeA_dimensions.PNG" width=400> 
