@@ -1,0 +1,1 @@
+<img src="https://github.com/mackieks/fujiflex/blob/main/output_adapters/typeC/images/typeC.PNG" width=400> <img src="https://github.com/mackieks/fujiflex/blob/main/output_adapters/typeC/images/typeC_dimensions.PNG" width=400> 
