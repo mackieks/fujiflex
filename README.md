@@ -22,7 +22,7 @@ I maintain [a Mouser project](https://www.mouser.com/ProjectManager/ProjectDetai
 
 The total BOM cost for fujiflex is around 10USD. **If you're paying more than $5 per FPGA, you are being ripped off!**
 
-- Order the FPC with 0.5oz/in² copper! If ordering from JLCPCB, you must choose 0.12mm FPC thickness in order to select 0.5oz/in² copper.
+**MANDATORY:** FPC must use **0.5oz/in² copper**. If ordering from JLCPCB, you must select 0.12mm FPC thickness to get 0.5oz.
 - A steel solderpaste stencil with etching or electropolishing is highly recommended for assembly. JLCPCB is a good source.
 - If you intend to program the SPI flash in-system, do not place R6.
 
