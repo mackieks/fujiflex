@@ -18,8 +18,9 @@ Special thanks to [loopj](https://github.com/loopj) for testing the FPC and writ
 <img src="https://github.com/mackieks/fujiflex/blob/main/images/layout.PNG" width=800>
 
 ## Ordering & Assembly
-
-- **MANDATORY:** FPC must use **0.5oz/in² copper**. 
+- Download the latest gerber ZIP from [the gerbers folder](https://github.com/mackieks/fujiflex/tree/main/Gerbers).
+- Order design as a 2-layer flexible PCB from JLCPCB, PCBWay, GoldPhoenix, or OSHPark.
+- **MANDATORY:** FPC must use **0.5oz/in² copper** 
 - If ordering from JLCPCB, you **must** select **0.12mm thickness** to get 0.5oz.
 - A steel solderpaste stencil with etching or electropolishing is **highly** recommended for assembly. JLCPCB is a good source.
 
