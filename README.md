@@ -20,8 +20,8 @@ Special thanks to [loopj](https://github.com/loopj) for testing the FPC and writ
 ## Ordering & Assembly
 - Download the latest gerber ZIP from [the gerbers folder](https://github.com/mackieks/fujiflex/tree/main/Gerbers).
 - Order design as a 2-layer flexible PCB from JLCPCB, PCBWay, GoldPhoenix, or OSHPark.
-- **MANDATORY:** FPC must use **0.5oz/in² copper** 
-- If ordering from JLCPCB, you **must** select **0.12mm thickness** to get 0.5oz.
+- **MANDATORY:** FPC must use at least **0.5oz/in² copper** 
+- If ordering from JLCPCB, you **must** select **0.12mm thickness** to get 0.5oz!
 - A steel solderpaste stencil with etching or electropolishing is **highly** recommended for assembly. JLCPCB is a good source.
 
 I maintain [a Mouser project](https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=5589d512f3) with most of the BOM. You still need to source the FPGA from elsewhere. I suggest either [LCSC](https://www.lcsc.com/product-detail/Programmable-Logic-Device-CPLDs-FPGAs_XILINX-XC3S200A-4VQG100C_C1521645.html), [AliExpress](https://www.aliexpress.us/item/3256805017536134.html), or [Taobao](https://item.taobao.com/item.htm?abbucket=5&id=749261010737&ns=1&spm=a21n57.1.0.0.2b93523ch7BSfI).
