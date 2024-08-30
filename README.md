@@ -28,8 +28,9 @@ I maintain [a Mouser project](https://www.mouser.com/ProjectManager/ProjectDetai
 
 The total BOM cost for fujiflex is around 10USD. **If you're paying more than $5 per FPGA, you are being ripped off!**
 
+Use the provided [ibom.html](https://github.com/mackieks/fujiflex/blob/main/ibom.html) to guide part placement.
 
-If you intend to program the SPI flash in-system, do not place R6.
+**Note:** If you intend to program the SPI flash in-system, do not place R6. You will need to place it after programming is complete.
 
 ## Flashing GCVideo
 
