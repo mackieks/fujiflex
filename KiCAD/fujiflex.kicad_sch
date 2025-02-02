@@ -859,7 +859,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "J23"
+			(property "Reference" "J1"
 				(at 12.7 6.6337 0)
 				(effects
 					(font
@@ -1335,7 +1335,7 @@
 					)
 				)
 			)
-			(symbol "505278-1933_0_1"
+			(symbol "505278-1933_1_1"
 				(polyline
 					(pts
 						(xy 5.08 2.54) (xy 20.32 2.54) (xy 20.32 -48.26) (xy 5.08 -48.26) (xy 5.08 2.54)
@@ -1345,7 +1345,7 @@
 						(type solid)
 					)
 					(fill
-						(type none)
+						(type background)
 					)
 				)
 			)
@@ -1358,22 +1358,20 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "IC"
-				(at 41.91 7.62 0)
+			(property "Reference" "U2"
+				(at 22.86 6.6337 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
 			(property "Value" "AT25SF041B-MAHD-T"
-				(at 41.91 5.08 0)
+				(at 22.86 4.2094 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
 			(property "Footprint" "SON50P300X200X60-9N-D"
@@ -1620,7 +1618,7 @@
 					)
 				)
 			)
-			(symbol "AT25SF041B-MAHD-T_0_1"
+			(symbol "AT25SF041B-MAHD-T_1_1"
 				(polyline
 					(pts
 						(xy 5.08 2.54) (xy 40.64 2.54) (xy 40.64 -15.24) (xy 5.08 -15.24) (xy 5.08 2.54)
@@ -1630,7 +1628,7 @@
 						(type solid)
 					)
 					(fill
-						(type none)
+						(type background)
 					)
 				)
 			)
@@ -1643,22 +1641,20 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "IC"
-				(at 72.39 30.48 0)
+			(property "Reference" "U1"
+				(at 39.2549 -0.205 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
 			(property "Value" "XC3S200A-4VQG100C"
-				(at 72.39 27.94 0)
+				(at 39.2549 -2.6293 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
 			(property "Footprint" "QFP50P1600X1600X120-100N"
@@ -3543,7 +3539,7 @@
 					)
 				)
 			)
-			(symbol "XC3S200A-4VQG100C_0_1"
+			(symbol "XC3S200A-4VQG100C_1_1"
 				(polyline
 					(pts
 						(xy 5.08 25.4) (xy 71.12 25.4) (xy 71.12 -86.36) (xy 5.08 -86.36) (xy 5.08 25.4)
@@ -3553,7 +3549,7 @@
 						(type solid)
 					)
 					(fill
-						(type none)
+						(type background)
 					)
 				)
 			)
