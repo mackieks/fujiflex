@@ -1,0 +1,13 @@
+﻿Designator,Quantity,Value,Footprint,Package,MPN,DNP,Mount_Type,Description,Height,Mouser Part Number,Mouser Price/Stock,Manufacturer_Name
+"C1, C2",2,1uF,C_0402_1005Metric,,,,smt,"Unpolarized capacitor, small symbol",,,,
+"C10, C11, C12, C3, C4, C5, C6, C7, C8, C9",10,0.1uF,C_0402_1005Metric,,,,smt,"Unpolarized capacitor, small symbol",,,,
+D1,1,BAT54XV2T1G,D_SOD-523,,,,smt,,,,,
+J1,1,505278-1933,5052781933,,505278-1933,,smt,FFC & FPC Connectors 0.5 FFC ZIF BTM CONT 19Ckt R/A FRONT FLIP,2.15,538-505278-1933,https://www.mouser.co.uk/ProductDetail/Molex/505278-1933?qs=c8NFF48pVsDT1Rm30ZuzyA%3D%3D,Molex
+JP1,1,SolderJumper_2_Open,SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm,,,,tht,"Solder Jumper, 2-pole, open",,,,
+"R1, R2, R3",3,10k,R_0402_1005Metric,,,,smt,"Resistor, small symbol",,,,
+"TP1, TP10, TP11, TP12, TP6, TP7, TP9",7,TestPoint,TestPoint_Pad_D0.75mm,,,,tht,test point,,,,
+"TP2, TP3, TP4",3,TestPoint,TestPoint_Pad_D1.5mm,,,,tht,test point,,,,
+"TP5, TP8",2,TestPoint,TestPoint_Pad_D1.0mm,,,,tht,test point,,,,
+U1,1,TPS7A0512PDBZR,SOT-23,,,,smt,,,,,
+U2,1,XC3S200A-4VQG100C,QFP50P1600X1600X120-100N,,XC3S200A-4VQG100C,,smt,"Spartan-3A FPGA 200k gates VQFP100 XC3S200A-4VQG100C, FPGA Spartan-3A 4032 Cells, 200000 Gates, 28672bit, 4032 Blocks, 1.14  1.26 V 100-Pin VTQFP",1.2,217-C3S200A-4VQG100C,https://www.mouser.co.uk/ProductDetail/Xilinx/XC3S200A-4VQG100C?qs=rrS6PyfT74eGc8DZ2cmrnA%3D%3D,XILINX
+U3,1,AT25SF041B-MAHD-T,SON50P300X200X60-9N-D,,AT25SF041B-MAHD-T,,smt,"The AT25SF041B is a member of our standard class code and data storage solutions designed for 3V systems in which program code is shadowed from Flash memory into embedded or external RAM for execution.The architecture includes erase block sizes that are optimized to meet the needs of today's code and data storage applications and three security register pages for unique device serialization, system-level Electronic Serial Number (ESN) storage, locked key storage, etc.	Universally compatible pinout and comma",0.6,988-AT25SF041BMAHDT,https://www.mouser.co.uk/ProductDetail/Renesas-Dialog/AT25SF041B-MAHD-T?qs=IS%252B4QmGtzzqoh2maLIY0qQ%3D%3D,Renesas Electronics
