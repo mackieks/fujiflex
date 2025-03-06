@@ -1,4 +1,4 @@
-25336927223488873
+25340409272504197
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -101913,6 +101913,13 @@ FILTER-SMD_6P-L1.6-W0.8-P0.50-BL
 6
 6
 easyeda2kicad
+FPC-SMD_19P-P0.50_AFD01-S19FCA-00
+
+
+0
+21
+21
+easyeda2kicad
 RJ45-TH_HR911130A
 
 
@@ -101940,3 +101947,10 @@ WS2812B-4020
 0
 4
 4
+xiao
+XIAO-RP2040-SMD
+
+
+0
+20
+20
