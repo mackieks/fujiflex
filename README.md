@@ -10,6 +10,7 @@ Special thanks to [loopj](https://github.com/loopj) for testing the FPC and writ
 - [x] Compact 28 x 30mm 2-layer flex PCB (requires KiCAD 8.0 or later)
 - [x] ~$10 BOM cost
 - [x] Powered from 3.3V and 1.8V (1.2V generated from 1.8V)
+- [x] 34mA @ 3.3V + 63mA @ 1.8V = 225mW power consumption
 - [x] 19-pin Molex 5052781933 / 5052781970 ZIF for HDMI output
 - [x] Wii SDA and SCL testpoints
 - [x] MODE solder jumper
