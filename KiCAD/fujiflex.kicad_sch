@@ -619,7 +619,7 @@
 						(type default)
 					)
 					(fill
-						(type outline)
+						(type none)
 					)
 				)
 				(arc
@@ -631,18 +631,6 @@
 						(type default)
 					)
 					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0.254 1.016)
-					(mid 1.2656 0)
-					(end 0.254 -1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
 						(type outline)
 					)
 				)
@@ -656,6 +644,18 @@
 					)
 					(fill
 						(type none)
+					)
+				)
+				(arc
+					(start 0.254 1.016)
+					(mid 1.2656 0)
+					(end 0.254 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
 					)
 				)
 				(polyline
@@ -4279,12 +4279,6 @@
 		(uuid "363976b2-a159-4353-83df-3b3978f8131b")
 	)
 	(junction
-		(at 120.65 170.18)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4063f017-5923-4b4a-a3e6-0c25e8e4c25b")
-	)
-	(junction
 		(at 35.56 139.7)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4605,10 +4599,6 @@
 		(uuid "3bd431c0-cd7e-4ab2-8f03-9067096af496")
 	)
 	(no_connect
-		(at 72.39 40.64)
-		(uuid "41d4c301-3df2-44ec-9680-cad1619818a9")
-	)
-	(no_connect
 		(at 140.97 78.74)
 		(uuid "466cfa62-d325-46d8-add0-f71c9949227b")
 	)
@@ -4699,6 +4689,10 @@
 	(no_connect
 		(at 107.95 40.64)
 		(uuid "a93a3904-19dc-4993-9c53-d946d839c194")
+	)
+	(no_connect
+		(at 128.27 162.56)
+		(uuid "aa42cf5b-1544-4869-8f53-fb48b3b52e2a")
 	)
 	(no_connect
 		(at 133.35 40.64)
@@ -5189,6 +5183,16 @@
 			(type default)
 		)
 		(uuid "278df683-facc-4665-a1e0-4359354ec916")
+	)
+	(wire
+		(pts
+			(xy 72.39 30.48) (xy 72.39 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28605638-e10a-4a38-b8c4-9e8e1fb6358d")
 	)
 	(wire
 		(pts
@@ -6032,7 +6036,7 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 132.08) (xy 240.03 132.08)
+			(xy 237.49 132.08) (xy 247.65 132.08)
 		)
 		(stroke
 			(width 0)
@@ -6102,16 +6106,6 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 132.08) (xy 247.65 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7ddc30b6-9cdb-46c7-8432-3ca6daa137c2")
-	)
-	(wire
-		(pts
 			(xy 241.3 34.29) (xy 245.11 34.29)
 		)
 		(stroke
@@ -6119,16 +6113,6 @@
 			(type default)
 		)
 		(uuid "80b7d040-820c-49c1-9aff-92cdbe616cae")
-	)
-	(wire
-		(pts
-			(xy 128.27 170.18) (xy 120.65 170.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "80ba0e0f-9758-42e7-96fa-de86bb2fc765")
 	)
 	(wire
 		(pts
@@ -7049,16 +7033,6 @@
 			(type default)
 		)
 		(uuid "ebae8b91-f6cf-4611-a129-ec0210ad415f")
-	)
-	(wire
-		(pts
-			(xy 128.27 162.56) (xy 128.27 170.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ee56b8bc-884a-4fb0-8103-20bbeaa83772")
 	)
 	(wire
 		(pts
@@ -8262,7 +8236,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0b41c3dd-7535-4edf-a512-7ac042c4389d")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR09"
 			(at 173.99 48.26 0)
 			(effects
 				(font
@@ -8312,7 +8286,7 @@
 		(instances
 			(project "fujiflex"
 				(path "/39897c5c-2595-480c-98d1-c9e79572b20a"
-					(reference "#PWR011")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -8327,7 +8301,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0e59316c-bb58-45c9-bf3b-821de108a529")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR011"
 			(at 43.18 53.34 0)
 			(effects
 				(font
@@ -8377,7 +8351,7 @@
 		(instances
 			(project "fujiflex"
 				(path "/39897c5c-2595-480c-98d1-c9e79572b20a"
-					(reference "#PWR025")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -8462,7 +8436,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "146051e3-1c36-484d-8e1b-c1e460c51c18")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR02"
 			(at 59.69 34.29 0)
 			(effects
 				(font
@@ -8512,7 +8486,7 @@
 		(instances
 			(project "fujiflex"
 				(path "/39897c5c-2595-480c-98d1-c9e79572b20a"
-					(reference "#PWR013")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -8528,7 +8502,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1d926ce2-8ef4-416b-bbd2-f9742d7edce9")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR08"
 			(at 262.89 45.72 0)
 			(effects
 				(font
@@ -8578,7 +8552,7 @@
 		(instances
 			(project "fujiflex"
 				(path "/39897c5c-2595-480c-98d1-c9e79572b20a"
-					(reference "#PWR03")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -8663,7 +8637,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "234b0ac2-d1b4-4b1b-9bc7-12fedd54120f")
-		(property "Reference" "TP8"
+		(property "Reference" "TP11"
 			(at 155.067 159.5698 0)
 			(effects
 				(font
@@ -8715,7 +8689,7 @@
 		(instances
 			(project "fujiflex"
 				(path "/39897c5c-2595-480c-98d1-c9e79572b20a"
-					(reference "TP8")
+					(reference "TP11")
 					(unit 1)
 				)
 			)
@@ -8731,7 +8705,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2d11900d-dc4d-42ea-b967-68af9fd1f929")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR013"
 			(at 194.31 116.84 0)
 			(effects
 				(font
@@ -8781,7 +8755,7 @@
 		(instances
 			(project "fujiflex"
 				(path "/39897c5c-2595-480c-98d1-c9e79572b20a"
-					(reference "#PWR010")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -8796,7 +8770,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "335ab641-7626-4102-9c14-6cfb6e69cac2")
-		(property "Reference" "C11"
+		(property "Reference" "C12"
 			(at 43.6312 164.4331 0)
 			(effects
 				(font
@@ -8851,7 +8825,7 @@
 		(instances
 			(project "fujiflex"
 				(path "/39897c5c-2595-480c-98d1-c9e79572b20a"
-					(reference "C11")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -8866,7 +8840,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3d3bd9bb-e906-4f06-8160-2cb56e31bcce")
-		(property "Reference" "U1"
+		(property "Reference" "U2"
 			(at 104.0249 71.325 0)
 			(effects
 				(font
@@ -8882,7 +8856,7 @@
 				)
 			)
 		)
-		(property "Footprint" "QFP50P1600X1600X120-100N"
+		(property "Footprint" "SamacSys:QFP50P1600X1600X120-100N"
 			(at 137.16 45.72 0)
 			(effects
 				(font
@@ -9265,7 +9239,7 @@
 		(instances
 			(project "fujiflex"
 				(path "/39897c5c-2595-480c-98d1-c9e79572b20a"
-					(reference "U1")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -9346,7 +9320,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "41e3d571-9551-4944-b5c6-3c7a04246af6")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR06"
 			(at 217.17 40.64 0)
 			(effects
 				(font
@@ -9396,7 +9370,7 @@
 		(instances
 			(project "fujiflex"
 				(path "/39897c5c-2595-480c-98d1-c9e79572b20a"
-					(reference "#PWR09")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -9412,7 +9386,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "42fb9ad8-d111-4deb-a7be-3cc578816630")
-		(property "Reference" "U3"
+		(property "Reference" "U1"
 			(at 252.73 28.2405 0)
 			(effects
 				(font
@@ -9468,7 +9442,7 @@
 		(instances
 			(project "fujiflex"
 				(path "/39897c5c-2595-480c-98d1-c9e79572b20a"
-					(reference "U3")
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -9483,7 +9457,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "444ee4a0-0ba5-41fa-b51f-17b3660dd36a")
-		(property "Reference" "C7"
+		(property "Reference" "C8"
 			(at 23.3112 164.4331 0)
 			(effects
 				(font
@@ -9538,7 +9512,7 @@
 		(instances
 			(project "fujiflex"
 				(path "/39897c5c-2595-480c-98d1-c9e79572b20a"
-					(reference "C7")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -9624,7 +9598,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4ac6b9fc-22f7-492a-8608-ee0a5aad96fa")
-		(property "Reference" "U2"
+		(property "Reference" "U3"
 			(at 212.09 125.4463 0)
 			(effects
 				(font
@@ -9640,7 +9614,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SON50P300X200X60-9N-D"
+		(property "Footprint" "SamacSys:SON50P300X200X60-9N-D"
 			(at 231.14 129.54 0)
 			(effects
 				(font
@@ -9750,7 +9724,7 @@
 		(instances
 			(project "fujiflex"
 				(path "/39897c5c-2595-480c-98d1-c9e79572b20a"
-					(reference "U2")
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -9765,7 +9739,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5223c096-7d40-45e2-835c-707474a9e92f")
-		(property "Reference" "TP9"
+		(property "Reference" "TP12"
 			(at 152.527 162.1098 0)
 			(effects
 				(font
@@ -9817,7 +9791,7 @@
 		(instances
 			(project "fujiflex"
 				(path "/39897c5c-2595-480c-98d1-c9e79572b20a"
-					(reference "TP9")
+					(reference "TP12")
 					(unit 1)
 				)
 			)
@@ -9832,7 +9806,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "606f4b4b-545c-46e3-865e-1eedca044f30")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR018"
 			(at 30.48 165.1 0)
 			(effects
 				(font
@@ -9882,7 +9856,7 @@
 		(instances
 			(project "fujiflex"
 				(path "/39897c5c-2595-480c-98d1-c9e79572b20a"
-					(reference "#PWR017")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -9897,7 +9871,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6302f985-0857-44f9-ac5d-81a20f13ca78")
-		(property "Reference" "C10"
+		(property "Reference" "C11"
 			(at 38.5512 164.4331 0)
 			(effects
 				(font
@@ -9952,7 +9926,7 @@
 		(instances
 			(project "fujiflex"
 				(path "/39897c5c-2595-480c-98d1-c9e79572b20a"
-					(reference "C10")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -9968,7 +9942,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6394cd00-e12e-4cfb-9152-5f5c3eedecb1")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR010"
 			(at 252.73 50.8 0)
 			(effects
 				(font
@@ -10018,7 +9992,7 @@
 		(instances
 			(project "fujiflex"
 				(path "/39897c5c-2595-480c-98d1-c9e79572b20a"
-					(reference "#PWR01")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -10033,7 +10007,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6701cc8c-979f-4544-8bfa-e5ebfbd3824f")
-		(property "Reference" "TP6"
+		(property "Reference" "TP9"
 			(at 160.147 154.4898 0)
 			(effects
 				(font
@@ -10085,7 +10059,7 @@
 		(instances
 			(project "fujiflex"
 				(path "/39897c5c-2595-480c-98d1-c9e79572b20a"
-					(reference "TP6")
+					(reference "TP9")
 					(unit 1)
 				)
 			)
@@ -10100,7 +10074,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "68d5f9bd-318a-41a0-a468-53217bfed101")
-		(property "Reference" "C8"
+		(property "Reference" "C9"
 			(at 28.4548 164.5654 0)
 			(effects
 				(font
@@ -10155,7 +10129,7 @@
 		(instances
 			(project "fujiflex"
 				(path "/39897c5c-2595-480c-98d1-c9e79572b20a"
-					(reference "C8")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -10310,7 +10284,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7cf96558-ea74-4ae8-8f96-387268e714b8")
-		(property "Reference" "C9"
+		(property "Reference" "C10"
 			(at 33.6342 164.4331 0)
 			(effects
 				(font
@@ -10365,7 +10339,7 @@
 		(instances
 			(project "fujiflex"
 				(path "/39897c5c-2595-480c-98d1-c9e79572b20a"
-					(reference "C9")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -10381,7 +10355,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7ff26a4b-ef23-4108-8e48-9c4952430d4e")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR016"
 			(at 33.02 154.94 0)
 			(effects
 				(font
@@ -10431,7 +10405,7 @@
 		(instances
 			(project "fujiflex"
 				(path "/39897c5c-2595-480c-98d1-c9e79572b20a"
-					(reference "#PWR015")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -10513,7 +10487,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "86fedc7e-2abc-499c-bbce-5ff8fd2389ba")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR020"
 			(at 62.23 181.61 0)
 			(effects
 				(font
@@ -10563,7 +10537,7 @@
 		(instances
 			(project "fujiflex"
 				(path "/39897c5c-2595-480c-98d1-c9e79572b20a"
-					(reference "#PWR06")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -10579,7 +10553,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9546736c-ec8f-4d82-b252-1cba0d545a3c")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR03"
 			(at 222.25 35.56 0)
 			(effects
 				(font
@@ -10629,7 +10603,7 @@
 		(instances
 			(project "fujiflex"
 				(path "/39897c5c-2595-480c-98d1-c9e79572b20a"
-					(reference "#PWR08")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -10645,7 +10619,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "98fbf576-415d-437c-982f-c0c66f26695c")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR014"
 			(at 247.65 129.54 0)
 			(effects
 				(font
@@ -10695,7 +10669,7 @@
 		(instances
 			(project "fujiflex"
 				(path "/39897c5c-2595-480c-98d1-c9e79572b20a"
-					(reference "#PWR022")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -10710,7 +10684,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a17e5509-0f16-40e4-9e81-16db31588604")
-		(property "Reference" "TP10"
+		(property "Reference" "TP6"
 			(at 49.0798 62.103 90)
 			(effects
 				(font
@@ -10762,7 +10736,7 @@
 		(instances
 			(project "fujiflex"
 				(path "/39897c5c-2595-480c-98d1-c9e79572b20a"
-					(reference "TP10")
+					(reference "TP6")
 					(unit 1)
 				)
 			)
@@ -10777,7 +10751,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a705e164-dec0-4cba-8131-62d6cdb091f5")
-		(property "Reference" "C12"
+		(property "Reference" "C7"
 			(at 239.6071 146.3035 0)
 			(effects
 				(font
@@ -10831,7 +10805,7 @@
 		(instances
 			(project "fujiflex"
 				(path "/39897c5c-2595-480c-98d1-c9e79572b20a"
-					(reference "C12")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -10846,7 +10820,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "adb68404-b1ca-4d89-8905-53e096552daa")
-		(property "Reference" "TP7"
+		(property "Reference" "TP10"
 			(at 157.607 157.0298 0)
 			(effects
 				(font
@@ -10898,7 +10872,7 @@
 		(instances
 			(project "fujiflex"
 				(path "/39897c5c-2595-480c-98d1-c9e79572b20a"
-					(reference "TP7")
+					(reference "TP10")
 					(unit 1)
 				)
 			)
@@ -11161,7 +11135,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b314db10-e6ce-4c57-97f1-3fea7fda8acb")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR01"
 			(at 55.88 34.29 0)
 			(effects
 				(font
@@ -11211,7 +11185,7 @@
 		(instances
 			(project "fujiflex"
 				(path "/39897c5c-2595-480c-98d1-c9e79572b20a"
-					(reference "#PWR016")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -11292,7 +11266,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bc465c65-06ba-47fb-b765-7cbb5f01f97a")
-		(property "Reference" "TP1"
+		(property "Reference" "TP4"
 			(at 234.188 32.0505 90)
 			(effects
 				(font
@@ -11338,6 +11312,73 @@
 		)
 		(pin "1"
 			(uuid "9553b3ce-0489-45e4-8699-11531d6dd55c")
+		)
+		(instances
+			(project "fujiflex"
+				(path "/39897c5c-2595-480c-98d1-c9e79572b20a"
+					(reference "TP4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 72.39 30.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bc8baaee-8a95-4e8b-9d2b-e1c56752ec7c")
+		(property "Reference" "TP1"
+			(at 74.93 24.892 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 70.993 25.9659 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SamacSys:TestPoint_Pad_D0.75mm"
+			(at 77.47 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 77.47 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 72.39 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9e78545b-65a0-4ecb-aca4-1fa7b04098fd")
 		)
 		(instances
 			(project "fujiflex"
@@ -11418,76 +11459,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
-		(at 242.57 132.08 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c157356a-20d8-44ad-bc8d-59cfac1ac08c")
-		(property "Reference" "R4"
-			(at 240.5121 127.1676 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0"
-			(at 240.6278 129.7076 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 242.57 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 242.57 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 242.57 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3340f4a3-b964-43a3-bd86-bfca816d375f")
-		)
-		(pin "2"
-			(uuid "71268e9e-c64d-4e3a-aaf6-9eefa91bd920")
-		)
-		(instances
-			(project "fujiflex"
-				(path "/39897c5c-2595-480c-98d1-c9e79572b20a"
-					(reference "R4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 30.48 171.45 0)
 		(unit 1)
@@ -11497,7 +11468,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c419379a-173b-4212-881a-7048b7a53164")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR019"
 			(at 30.48 177.8 0)
 			(effects
 				(font
@@ -11547,7 +11518,7 @@
 		(instances
 			(project "fujiflex"
 				(path "/39897c5c-2595-480c-98d1-c9e79572b20a"
-					(reference "#PWR018")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -11630,7 +11601,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cc25de9e-6e78-42d0-a738-45d524db64e6")
-		(property "Reference" "TP4"
+		(property "Reference" "TP8"
 			(at 154.6395 69.088 0)
 			(effects
 				(font
@@ -11680,7 +11651,7 @@
 		(instances
 			(project "fujiflex"
 				(path "/39897c5c-2595-480c-98d1-c9e79572b20a"
-					(reference "TP4")
+					(reference "TP8")
 					(unit 1)
 				)
 			)
@@ -11695,7 +11666,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "dbf3fd99-40b9-4f3b-a45c-b86759a3306b")
-		(property "Reference" "TP11"
+		(property "Reference" "TP7"
 			(at 49.0798 67.183 90)
 			(effects
 				(font
@@ -11747,7 +11718,7 @@
 		(instances
 			(project "fujiflex"
 				(path "/39897c5c-2595-480c-98d1-c9e79572b20a"
-					(reference "TP11")
+					(reference "TP7")
 					(unit 1)
 				)
 			)
@@ -11762,7 +11733,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "dca0f3ef-f206-444e-a602-6ccbcee85303")
-		(property "Reference" "TP3"
+		(property "Reference" "TP2"
 			(at 216.027 25.9658 0)
 			(effects
 				(font
@@ -11814,7 +11785,7 @@
 		(instances
 			(project "fujiflex"
 				(path "/39897c5c-2595-480c-98d1-c9e79572b20a"
-					(reference "TP3")
+					(reference "TP2")
 					(unit 1)
 				)
 			)
@@ -11830,7 +11801,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "de8591a9-cb3c-4bc7-9851-6ab7affcf3e9")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR012"
 			(at 226.06 76.2 0)
 			(effects
 				(font
@@ -11880,7 +11851,7 @@
 		(instances
 			(project "fujiflex"
 				(path "/39897c5c-2595-480c-98d1-c9e79572b20a"
-					(reference "#PWR07")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -11896,7 +11867,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e44e761b-98fe-4687-838f-328576bf18f7")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR015"
 			(at 33.02 142.24 0)
 			(effects
 				(font
@@ -11946,7 +11917,7 @@
 		(instances
 			(project "fujiflex"
 				(path "/39897c5c-2595-480c-98d1-c9e79572b20a"
-					(reference "#PWR014")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -11962,7 +11933,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e639ec9b-1154-488e-bebf-fd142a3615d6")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR07"
 			(at 241.3 45.72 0)
 			(effects
 				(font
@@ -12012,7 +11983,7 @@
 		(instances
 			(project "fujiflex"
 				(path "/39897c5c-2595-480c-98d1-c9e79572b20a"
-					(reference "#PWR02")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -12166,7 +12137,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fba5dcbe-afd7-491b-b55b-87b879547130")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR017"
 			(at 212.09 160.02 0)
 			(effects
 				(font
@@ -12216,7 +12187,7 @@
 		(instances
 			(project "fujiflex"
 				(path "/39897c5c-2595-480c-98d1-c9e79572b20a"
-					(reference "#PWR021")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -12232,7 +12203,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fe6ffec4-df43-4709-878b-19748cee89cf")
-		(property "Reference" "TP2"
+		(property "Reference" "TP3"
 			(at 223.647 35.1098 0)
 			(effects
 				(font
@@ -12284,7 +12255,7 @@
 		(instances
 			(project "fujiflex"
 				(path "/39897c5c-2595-480c-98d1-c9e79572b20a"
-					(reference "TP2")
+					(reference "TP3")
 					(unit 1)
 				)
 			)
