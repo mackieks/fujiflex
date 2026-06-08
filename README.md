@@ -78,7 +78,7 @@ fujiflex is soldered directly to the [digital A/V vias](https://github.com/ikorb
 - Wire the 1.8V, 3.3V, 5V, and GND pads
 - To use a Gamecube controller for navigating the GCVideo OSD, you'll also need to [wire the GCC pad](https://github.com/ikorb/gcvideo/blob/main/HDL/gcvideo_dvi/README-Wii.md#controller) (or [via](https://bitbuilt.net/forums/index.php?threads/the-definitive-wii-trimming-guide.198/#:~:text=GameCube%20controllers%E2%80%8B,GameCube%20controllers)).
 
-Install by [loopj](https://github.com/loopj):
+Installation Photo:
 
 <img src="https://github.com/mackieks/fujiflex/blob/main/images/install.jpg" width=450>
 
